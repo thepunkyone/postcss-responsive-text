@@ -11,6 +11,12 @@
   "author": "Whitney Bluzma <thepunkyone@gmail.com>",
   "license": "MIT",
   "repository": "thepunkyone/postcss-responsive-text",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "typography"
+  ],
   "engines": {
     "node": ">=12.0.0"
   },
@@ -20,7 +26,7 @@
   "devDependencies": {
     "@types/node": "^18.15.3",
     "chai": "^4.0.2",
-    "mocha": "^3.4.2",
+    "mocha": "^10.2.0",
     "nodemon": "^2.0.21",
     "prettier": "^2.8.4",
     "rimraf": "^4.4.0",
