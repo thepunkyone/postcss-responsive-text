@@ -1,16 +1,20 @@
 {
   "name": "postcss-responsive-text",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Responsive font sizes without the hassle.",
   "main": "index.js",
   "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "dev": "npx nodemon",
     "test": "jest"
   },
   "author": "Whitney Bluzma",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.3",
+    "nodemon": "^2.0.21",
     "prettier": "^2.8.4",
+    "rimraf": "^4.4.0",
     "typescript": "^5.0.2"
   },
   "dependencies": {
