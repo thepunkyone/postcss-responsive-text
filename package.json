@@ -1,0 +1,21 @@
+{
+  "name": "postcss-responsive-text",
+  "version": "1.0.0",
+  "description": "Responsive font sizes without the hassle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Whitney Bluzma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "prettier": "^2.8.4",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0"
+  }
+}
